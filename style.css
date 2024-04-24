@@ -1,0 +1,39 @@
+:root{
+    --main-bg-color:hsl(0, 0%, 8%);
+    --second-bg-color:hsl(0, 0%, 12%);
+    --button-bg-color: hsl(0, 0%, 20%);
+    --main-color:hsl(0, 0%, 100%);
+    --second-color: hsl(75, 94%, 57%);
+    --small-font-size: 0.875rem;
+    --border-radius: 0.25rem;
+    --margin-bottom: 0.75rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: var(--main-color);
+}
+button{
+    padding: 0.5rem;
+    width: 20%;   
+    background-color:var(--button-bg-color);
+    border: none;
+    border-radius: var(--border-radius);
+}
+body{
+    font-family: "Inter", sans-serif;
+    background-color: var(--main-bg-color);
+}
+.container{
+    background-color: var(--second-bg-color);
+}
+.social-links{
+    flex-direction:column;
+}
